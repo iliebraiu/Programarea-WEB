@@ -1,4 +1,11 @@
-pentru  ( fie  index  =  14 ;  index  <=  90 ;  index ++ )  {
-    document . scrie ( ` ${ index } <br>` ) ;
-    
+alert ( "Salut. Eu sunt JavaScript" ) ;
+
+const  userName  =  prompt ( "Cum te numesti?" ) ;
+
+alertă ( `Salut ${ userName } ` ) ;
+
+if ( confirm ( "Vreti sa studiati JS?" ) ) {
+    alert ( "Bravo! Succes!" )
+}  altfel {
+    alert ( "OOps. Ati ales directia gresita" ) ;
 }
