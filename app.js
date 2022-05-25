@@ -1,11 +1,12 @@
-let n = prompt('Indicati un numar', '');
+let n = prompt('Introduceti nume prenume', '');
 
-if (n > 14) {
-  alert( '1' );
-} else if (n < 90) {
-  alert( '1' );
-} else if(n == 0)  {
-  alert( '0' );
+if (n = nume && prenume) {
+  alert( 'salut' );
+} else if (n = nume) {
+  alert( 'eror' );
+} else if(n = prenume)  {
+  alert( 'error' );
+ 
 } else {
   alert ('error');
 };
