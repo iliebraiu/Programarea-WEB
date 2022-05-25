@@ -1,7 +1,11 @@
 let a = prompt('indicati a');
 let b = prompt('indicati b');
-let s = 0;
-for (let i=Number(a); i<=Number(b); i++){
-  if (i%2 == 0) s = s+i;
-} 
-alert ('suma ='+ s);
+let c = prompt('indicati c');
+let max ;
+let min ;
+if (a>b) {max = a; min = b;}
+else {max = b; min = a;}
+if (max<c) max = c; 
+if(min>c) min = c;
+
+alert ('max = '+ max + ' min = ' + min );
