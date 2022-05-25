@@ -1,15 +1,7 @@
-let n = 2 + 1;
-
-switch (n) {
-  case 3:
-    alert( 'trei' );
-    break;
-  case 4:
-    alert( 'patru' );
-    break;
-  case 5:
-    alert( 'cinci' );
-    break;
-  default:
-    alert( "nimic" );
-}
+let a = prompt('indicati a');
+let b = prompt('indicati b');
+let s = 0;
+for (let i=Number(a); i<=Number(b); i++){
+  if (i%2 == 0) s = s+i;
+} 
+alert ('suma ='+ s);
